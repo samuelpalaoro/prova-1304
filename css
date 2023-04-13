@@ -1,0 +1,141 @@
+ul {
+
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #0093ff;
+    background-color: rgb(51, 133, 44);
+    padding-left: 50%;
+}
+
+@media all and (max-width: 50%) {
+
+    ul {
+        flex-direction: column;
+    }
+
+}
+
+ul a {
+
+    padding: 1em 2em;
+    position: left;
+
+    display: inline-block;
+    font-family: 'open_sansregular';
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+ul a:hover {
+
+    background: #242424;
+
+}
+
+img {
+    width: 100%;
+    height: 500px;
+
+}
+
+p {
+    align-items: center;
+    font-size: large;
+    text-align: center;
+    font-style: normal;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.quadrado {
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    display: inline-block;
+
+}
+
+
+.texto {
+    display: inline-block;/ vertical-align: middle;
+    margin-left: 35px;
+    color: #000000;
+    text-align: center;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.bloco {
+    display: flex;
+    max-width: 100%;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+
+.divisao-esquerda {
+    flex: 1;
+    padding: 0px;
+    width: 50%;
+}
+
+.imagem {
+    max-width: 100%;
+}
+
+.divisao-direita {
+    flex: 2;
+    width: 50%;
+    padding: 00px;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.paragrafo {
+    margin-top: 0px;
+}
+
+.botao {
+    margin-top: 0px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+}
+footer {
+    background-color: #000000; 
+    color: #ffffff; 
+    padding: 20px; 
+    text-align: center; 
+    position: fixed; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+}
+
+footer a {
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
